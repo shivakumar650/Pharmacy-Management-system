@@ -1,0 +1,1 @@
+where is the main content of the project it is only showing headers so do one thing improve the stylings in my project to look clean and attractive and i want you to do test the every module whether it is working or not if not fix that first and then apply stylings test every component,everry button and etc all i want to you check this and apply css 

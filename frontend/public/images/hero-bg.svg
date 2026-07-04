@@ -1,0 +1,49 @@
+<svg width="800" height="400" viewBox="0 0 800 400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="heroGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#667eea;stop-opacity:0.1" />
+      <stop offset="50%" style="stop-color:#764ba2;stop-opacity:0.15" />
+      <stop offset="100%" style="stop-color:#f093fb;stop-opacity:0.1" />
+    </linearGradient>
+    <pattern id="heroPattern" x="0" y="0" width="60" height="60" patternUnits="userSpaceOnUse">
+      <circle cx="30" cy="30" r="1" fill="#ffffff" opacity="0.2"/>
+      <circle cx="15" cy="45" r="0.8" fill="#ffffff" opacity="0.15"/>
+      <circle cx="45" cy="15" r="0.6" fill="#ffffff" opacity="0.1"/>
+    </pattern>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="400" fill="url(#heroGradient)"/>
+  <rect width="800" height="400" fill="url(#heroPattern)"/>
+
+  <!-- Pharmacy illustration -->
+  <g opacity="0.1" transform="translate(50, 50)">
+    <!-- Building outline -->
+    <rect x="100" y="150" width="200" height="150" fill="none" stroke="#ffffff" stroke-width="2" opacity="0.3"/>
+    <rect x="120" y="170" width="40" height="60" fill="#ffffff" opacity="0.2"/>
+    <rect x="180" y="170" width="40" height="60" fill="#ffffff" opacity="0.2"/>
+    <rect x="240" y="170" width="40" height="60" fill="#ffffff" opacity="0.2"/>
+
+    <!-- Pharmacy sign -->
+    <rect x="130" y="120" width="140" height="30" fill="#ffffff" opacity="0.25" rx="15"/>
+    <text x="200" y="140" text-anchor="middle" fill="#667eea" font-size="12" font-weight="bold">PHARMACY</text>
+
+    <!-- Medicine bottles -->
+    <rect x="350" y="200" width="8" height="40" fill="#ffffff" opacity="0.3" rx="2"/>
+    <rect x="358" y="195" width="4" height="8" fill="#ffffff" opacity="0.4" rx="1"/>
+    <rect x="380" y="210" width="6" height="35" fill="#ffffff" opacity="0.25" rx="2"/>
+    <rect x="386" y="205" width="3" height="6" fill="#ffffff" opacity="0.35" rx="1"/>
+    <rect x="410" y="190" width="7" height="38" fill="#ffffff" opacity="0.2" rx="2"/>
+    <rect x="417" y="185" width="4" height="7" fill="#ffffff" opacity="0.3" rx="1"/>
+  </g>
+
+  <!-- Decorative elements -->
+  <g opacity="0.15">
+    <circle cx="150" cy="80" r="3" fill="#ffffff"/>
+    <circle cx="400" cy="120" r="2" fill="#ffffff"/>
+    <circle cx="650" cy="90" r="2.5" fill="#ffffff"/>
+    <circle cx="200" cy="300" r="1.5" fill="#ffffff"/>
+    <circle cx="550" cy="280" r="2.2" fill="#ffffff"/>
+    <circle cx="750" cy="250" r="1.8" fill="#ffffff"/>
+  </g>
+</svg>
